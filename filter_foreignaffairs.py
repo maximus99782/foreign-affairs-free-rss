@@ -2,6 +2,7 @@ import time
 import traceback
 import requests
 import feedparser
+import re
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from email.utils import format_datetime
@@ -86,45 +87,36 @@ def parse_latest_from_html():
     return out[:40], r.status_code, r.headers.get("content-type", "")
 
 import re
-import unicodedata
+from bs4 import BeautifulSoup
 
-def _norm(s: str) -> str:
-    if not s:
-        return ""
-    # Normalize unicode (e.g., non-breaking spaces), lowercase, collapse whitespace
-    s = unicodedata.normalize("NFKC", s)
+def norm_text(s: str) -> str:
+    s = s or ""
     s = s.lower()
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
 def is_paywalled(url: str) -> bool:
-    r = requests.get(url, headers=HEADERS, timeout=25)
-    # If they ever return paywall-ish HTTP codes, treat as paywalled.
-    if r.status_code in (401, 402, 403):
-        return True
+    r = requests.get(url, headers=HEADERS, timeout=25, allow_redirects=True)
     r.raise_for_status()
 
-    html = _norm(r.text)
+    soup = BeautifulSoup(r.text, "html.parser")
+    page_text = norm_text(soup.get_text(" ", strip=True))
 
-    # Strong, specific marker from your screenshot
-    if "this article is part of our premium archives" in html:
-        return True
-
-    # Other strong phrases commonly present in that overlay
-    strong = [
-        "premium archives",
+    # Cicero-style: require multiple paywall-only phrases together (AND)
+    must_have = [
+        "this article is part of our premium archives",
         "to continue reading and get full access to our entire archive, you must subscribe",
         "already a subscriber? log in",
     ]
-    if any(m in html for m in strong):
+    if all(m in page_text for m in must_have):
         return True
 
-    # Backup heuristic: paywall overlay tends to contain BOTH “subscribe” and “log in”
-    # (avoid using "subscribe" alone because many free pages show it in the header)
-    if ("subscribe" in html) and ("log in" in html) and ("entire archive" in html or "premium" in html):
+    # Backup heuristic like Cicero: simpler combo
+    if "premium archives" in page_text and "subscribe" in page_text:
         return True
 
     return False
+
 
 def write_outputs(items_xml, debug_lines):
     now = format_datetime(datetime.now(timezone.utc))
