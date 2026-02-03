@@ -85,18 +85,46 @@ def parse_latest_from_html():
 
     return out[:40], r.status_code, r.headers.get("content-type", "")
 
-def is_paywalled(url: str) -> bool:
-    r = fetch_url(url, timeout=25)
-    soup = BeautifulSoup(r.text, "html.parser")
-    page_text = soup.get_text(" ", strip=True)
+import re
+import unicodedata
 
-    # Paywall: if it contains the premium archives message OR multiple subscribe markers.
-    if "This article is part of our premium archives" in page_text:
+def _norm(s: str) -> str:
+    if not s:
+        return ""
+    # Normalize unicode (e.g., non-breaking spaces), lowercase, collapse whitespace
+    s = unicodedata.normalize("NFKC", s)
+    s = s.lower()
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+def is_paywalled(url: str) -> bool:
+    r = requests.get(url, headers=HEADERS, timeout=25)
+    # If they ever return paywall-ish HTTP codes, treat as paywalled.
+    if r.status_code in (401, 402, 403):
+        return True
+    r.raise_for_status()
+
+    html = _norm(r.text)
+
+    # Strong, specific marker from your screenshot
+    if "this article is part of our premium archives" in html:
         return True
 
-    # backup: require at least 2 generic markers to reduce false positives
-    hits = sum(1 for m in PAYWALL_MARKERS_ANY if m in page_text)
-    return hits >= 2
+    # Other strong phrases commonly present in that overlay
+    strong = [
+        "premium archives",
+        "to continue reading and get full access to our entire archive, you must subscribe",
+        "already a subscriber? log in",
+    ]
+    if any(m in html for m in strong):
+        return True
+
+    # Backup heuristic: paywall overlay tends to contain BOTH “subscribe” and “log in”
+    # (avoid using "subscribe" alone because many free pages show it in the header)
+    if ("subscribe" in html) and ("log in" in html) and ("entire archive" in html or "premium" in html):
+        return True
+
+    return False
 
 def write_outputs(items_xml, debug_lines):
     now = format_datetime(datetime.now(timezone.utc))
@@ -164,7 +192,10 @@ def main():
         try:
             if is_paywalled(link):
                 dropped_paywalled += 1
+                if dropped_paywalled <= 15:
+                    debug_lines.append(f"dropped_paywalled_url={link}")
                 continue
+
         except Exception:
             # fail-open so the feed doesn't go empty if checks are blocked intermittently
             check_errors += 1
