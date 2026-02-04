@@ -4,13 +4,20 @@
     <title>Foreign Affairs (free-only-ish)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS feed; see debug.txt for run details</description>
-    <lastBuildDate>Wed, 04 Feb 2026 04:52:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 06:05:30 +0000</lastBuildDate>
     
     <item>
-      <title>The Paradox of Wartime Commerce</title>
-      <link>https://www.foreignaffairs.com/united-states/paradox-wartime-commerce</link>
-      <pubDate>Tue, 03 Feb 2026 00:00:00 -0500</pubDate>
-      <description>Why states keep trading even in the midst of conflict.</description>
+      <title>Trouble Is Brewing in Syria</title>
+      <link>https://www.foreignaffairs.com/syria/trouble-brewing-syria</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 -0500</pubDate>
+      <description>Consolidating Shara’s power could undermine the country’s progress.</description>
+    </item>
+                
+    <item>
+      <title>The Free World Needs Taiwan</title>
+      <link>https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 -0500</pubDate>
+      <description>Solidarity will protect prosperity.</description>
     </item>
                 
     <item>
