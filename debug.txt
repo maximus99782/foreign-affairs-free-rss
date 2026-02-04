@@ -1,10 +1,11 @@
-run_utc=2026-02-04T06:04:50.961652+00:00
+run_utc=2026-02-04T07:11:35.919087+00:00
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-kept_probe_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=no_overlay_text
+kept_probe_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=no_overlay_text
 kept_probe_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=no_overlay_text
+kept_probe_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=no_overlay_text
 dropped_paywalled_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=overlay_exact
 kept_probe_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=no_overlay_text
 dropped_paywalled_url=https://www.foreignaffairs.com/china/xi-destroyer reason=overlay_exact
@@ -22,8 +23,7 @@ dropped_paywalled_url=https://www.foreignaffairs.com/united-states/geopolitics-a
 dropped_paywalled_url=https://www.foreignaffairs.com/united-states/personalist-global-order reason=overlay_exact
 dropped_paywalled_url=https://www.foreignaffairs.com/united-states/case-upending-world-trade reason=overlay_exact
 dropped_paywalled_url=https://www.foreignaffairs.com/palestinian-territories/only-way-disarm-hamas reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/china/perfect-storm-taiwan-2026 reason=overlay_exact
-kept_items=3
-dropped_paywalled=17
+kept_items=4
+dropped_paywalled=16
 dropped_no_link=0
 paywall_check_errors=0

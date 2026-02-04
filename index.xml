@@ -4,13 +4,13 @@
     <title>Foreign Affairs (free-only-ish)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS feed; see debug.txt for run details</description>
-    <lastBuildDate>Wed, 04 Feb 2026 06:05:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Feb 2026 07:12:15 +0000</lastBuildDate>
     
     <item>
-      <title>Trouble Is Brewing in Syria</title>
-      <link>https://www.foreignaffairs.com/syria/trouble-brewing-syria</link>
-      <pubDate>Wed, 04 Feb 2026 00:00:00 -0500</pubDate>
-      <description>Consolidating Shara’s power could undermine the country’s progress.</description>
+      <title>There Is Only One Sphere of Influence</title>
+      <link>https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence</link>
+      <pubDate>Wed, 04 Feb 2026 00:30:00 -0500</pubDate>
+      <description>America can project power with little constraint—and its rivals cannot.</description>
     </item>
                 
     <item>
@@ -18,6 +18,13 @@
       <link>https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 -0500</pubDate>
       <description>Solidarity will protect prosperity.</description>
+    </item>
+                
+    <item>
+      <title>Trouble Is Brewing in Syria</title>
+      <link>https://www.foreignaffairs.com/syria/trouble-brewing-syria</link>
+      <pubDate>Wed, 04 Feb 2026 00:00:00 -0500</pubDate>
+      <description>Consolidating Shara’s power could undermine the country’s progress.</description>
     </item>
                 
     <item>
