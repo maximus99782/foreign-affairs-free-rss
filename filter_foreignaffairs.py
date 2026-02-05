@@ -31,7 +31,6 @@ PAYWALL_MUST_HAVE_ANY = [
 PAYWALL_HELPERS = [
     "premium archives",
     "To continue reading and get full access to our entire archive, you must subscribe",
-    "Already a subscriber? Log In",
 ]
 
 def xml_escape(s: str) -> str:
@@ -61,7 +60,6 @@ PAYWALL_STRONG_TEXT = [
     "Finish reading this article for free",
     "Enter your email and we’ll send a paywall-free link",
     "Get unlimited access to all Foreign Affairs",
-    "Already a subscriber? Log In",
 ]
 
 def is_paywalled_playwright(context, url: str):
