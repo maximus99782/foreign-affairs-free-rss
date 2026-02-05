@@ -4,8 +4,15 @@
     <title>Foreign Affairs (free-only-ish)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS feed; see debug.txt for run details</description>
-    <lastBuildDate>Thu, 05 Feb 2026 06:11:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 07:18:05 +0000</lastBuildDate>
     
+    <item>
+      <title>Strength Over Peace</title>
+      <link>https://www.foreignaffairs.com/united-states/strength-over-peace</link>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 -0500</pubDate>
+      <description>Venezuela, Iran, and the dicey politics of military intervention.</description>
+    </item>
+                
     <item>
       <title>The Limits of Russian Power</title>
       <link>https://www.foreignaffairs.com/russia/limits-russian-power</link>
@@ -137,13 +144,6 @@
       <link>https://www.foreignaffairs.com/united-states/personalist-global-order</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 -0500</pubDate>
       <description>When individual whims drive great-power policy.</description>
-    </item>
-                
-    <item>
-      <title>The Case for Upending World Trade</title>
-      <link>https://www.foreignaffairs.com/united-states/case-upending-world-trade</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 -0500</pubDate>
-      <description>How Trump’s vision echoes America’s traditional approach.</description>
     </item>
                 
   </channel>

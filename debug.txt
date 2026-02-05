@@ -1,13 +1,13 @@
-run_utc=2026-02-05T06:11:11.449903+00:00
+run_utc=2026-02-05T07:17:22.034549+00:00
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
+kept_probe_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=no_overlay_text
 kept_probe_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=no_overlay_text
 kept_probe_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=no_overlay_text
 kept_probe_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=no_overlay_text
 kept_probe_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=no_overlay_text
-kept_probe_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=no_overlay_text
 kept_items=20
 dropped_paywalled=0
 dropped_no_link=0
