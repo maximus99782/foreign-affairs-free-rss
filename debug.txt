@@ -1,13 +1,13 @@
-run_utc=2026-02-05T11:03:27.612055+00:00
-run_seq=5
+run_utc=2026-02-05T11:51:28.368028+00:00
+run_seq=6
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria streak=3 reason=free_open_words=2983
+free_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria streak=4 reason=free_open_words=2983
 dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=content_too_short_words=0
