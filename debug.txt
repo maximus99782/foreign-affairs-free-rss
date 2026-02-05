@@ -1,29 +1,14 @@
-run_utc=2026-02-05T05:00:09.743260+00:00
+run_utc=2026-02-05T06:11:11.449903+00:00
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
+kept_probe_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=no_overlay_text
 kept_probe_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=no_overlay_text
-dropped_paywalled_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/china/xi-destroyer reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/iran/americas-best-chance-transform-iran-trump reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/china/unsettling-implications-xis-military-purge reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/world-will-come-miss-western-hypocrisy reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/afghanistan/afghanistan-and-pakistan-square reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/making-industrial-strategy-great-again reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/china/chinas-economic-statecraft-working reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/better-greenland-deal reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/ukraine/fortress-ukraine reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/geopolitics-age-artificial-intelligence reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/personalist-global-order reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/case-upending-world-trade reason=overlay_exact
-dropped_paywalled_url=https://www.foreignaffairs.com/palestinian-territories/only-way-disarm-hamas reason=overlay_exact
-kept_items=1
-dropped_paywalled=19
+kept_probe_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=no_overlay_text
+kept_probe_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=no_overlay_text
+kept_probe_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=no_overlay_text
+kept_items=20
+dropped_paywalled=0
 dropped_no_link=0
 paywall_check_errors=0
