@@ -1,21 +1,17 @@
-run_utc=2026-02-05T08:09:49.665995+00:00
+run_utc=2026-02-05T08:17:22.903426+00:00
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_paywalled_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible
 dropped_paywalled_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_visible
-kept_probe_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=no_gate_detected
-dropped_paywalled_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=visible_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=visible_text:Finish reading this article for free
+kept_probe_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=no_gate_detected
 kept_probe_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=no_gate_detected
 kept_probe_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=no_gate_detected
 kept_probe_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=no_gate_detected
 kept_probe_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=no_gate_detected
-dropped_paywalled_url=https://www.foreignaffairs.com/china/xi-destroyer reason=email_gate_visible
-dropped_paywalled_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone reason=visible_text:Finish reading this article for free
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/making-industrial-strategy-great-again reason=visible_text:Finish reading this article for free
-dropped_paywalled_url=https://www.foreignaffairs.com/united-states/geopolitics-age-artificial-intelligence reason=visible_text:Finish reading this article for free
-kept_items=13
-dropped_paywalled=7
+kept_items=17
+dropped_paywalled=3
 dropped_no_link=0
 paywall_check_errors=0
