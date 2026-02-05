@@ -4,7 +4,15 @@
     <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS: only items that are free-open (no email gate, no subscription), confirmed across runs.</description>
-    <lastBuildDate>Thu, 05 Feb 2026 09:04:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 10:04:10 +0000</lastBuildDate>
     
+    <item>
+      <title>Trouble Is Brewing in Syria</title>
+      <link>https://www.foreignaffairs.com/syria/trouble-brewing-syria</link>
+      <guid isPermaLink="true">https://www.foreignaffairs.com/syria/trouble-brewing-syria</guid>
+      <pubDate>Wed, 04 Feb 2026 05:00:00 +0000</pubDate>
+      <description>Sustaining the country’s progress requires a more inclusive transition.</description>
+    </item>
+                        
   </channel>
 </rss>
