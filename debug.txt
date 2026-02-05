@@ -1,12 +1,12 @@
-run_utc=2026-02-05T22:49:42.591797+00:00
-run_seq=16
+run_utc=2026-02-05T23:41:29.750887+00:00
+run_seq=17
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence streak=2 reason=free_open_words=5309
+free_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence streak=3 reason=free_open_words=5309
 dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=content_too_short_words=0
