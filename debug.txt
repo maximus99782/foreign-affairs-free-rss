@@ -1,14 +1,29 @@
-run_utc=2026-02-05T07:17:22.034549+00:00
+run_utc=2026-02-05T07:47:01.647565+00:00
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-kept_probe_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=no_overlay_text
-kept_probe_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=no_overlay_text
-kept_probe_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=no_overlay_text
-kept_probe_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=no_overlay_text
-kept_probe_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=no_overlay_text
-kept_items=20
-dropped_paywalled=0
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_modal
+dropped_paywalled_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_modal
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=email_gate_modal
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=email_gate_modal
+dropped_paywalled_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=email_gate_modal
+dropped_paywalled_url=https://www.foreignaffairs.com/china/xi-destroyer reason=email_gate_modal
+dropped_paywalled_url=https://www.foreignaffairs.com/iran/americas-best-chance-transform-iran-trump reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/china/unsettling-implications-xis-military-purge reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/world-will-come-miss-western-hypocrisy reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/afghanistan/afghanistan-and-pakistan-square reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/making-industrial-strategy-great-again reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/china/chinas-economic-statecraft-working reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/better-greenland-deal reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/ukraine/fortress-ukraine reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/geopolitics-age-artificial-intelligence reason=paywall_text:Finish reading this article for free
+dropped_paywalled_url=https://www.foreignaffairs.com/united-states/personalist-global-order reason=paywall_text:Finish reading this article for free
+kept_items=0
+dropped_paywalled=20
 dropped_no_link=0
 paywall_check_errors=0
