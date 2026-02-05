@@ -31,10 +31,13 @@ PAYWALL_VISIBLE_TEXT = [
     # premium archives / subscriber prompts
     "This article is part of our premium archives",
     "To continue reading and get full access",
+    "Subscribe",
 
     # email unlock gate (your screenshot)
     "Finish reading this article for free",
+    "Enter your email",
     "Get it Now",
+    "Already a subscriber? Log In",
 ]
 
 def xml_escape(s: str) -> str:
