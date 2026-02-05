@@ -50,6 +50,20 @@ def fetch_source_feed():
     r.raise_for_status()
     return feedparser.parse(r.content), r.status_code, r.headers.get("content-type", "")
 
+import re
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+
+PAYWALL_STRONG_TEXT = [
+    # Premium gate
+    "This article is part of our premium archives",
+
+    # Email gate (your screenshot)
+    "Finish reading this article for free",
+    "Enter your email and we’ll send a paywall-free link",
+    "Get unlimited access to all Foreign Affairs",
+    "Already a subscriber? Log In",
+]
+
 def is_paywalled_playwright(context, url: str):
     """
     Returns (paywalled: bool, reason: str)
@@ -57,24 +71,33 @@ def is_paywalled_playwright(context, url: str):
     page = context.new_page()
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=35_000)
-        # Give JS a moment to render overlays
-        page.wait_for_timeout(1500)
 
+        # Wait a bit for overlays; many are mounted after DOMContentLoaded
+        page.wait_for_timeout(2000)
+
+        html = page.content()
         body_text = page.inner_text("body")
 
-        # Strong signal: exact sentence
-        for s in PAYWALL_MUST_HAVE_ANY:
-            if s in body_text:
-                return True, "overlay_exact"
+        # 1) Strong text triggers (either in HTML or visible text)
+        for s in PAYWALL_STRONG_TEXT:
+            if s in body_text or s in html:
+                return True, f"paywall_text:{s[:40]}"
 
-        # Backup: combination check (reduces false positives)
-        hits = sum(1 for s in PAYWALL_HELPERS if s in body_text)
-        if hits >= 2:
-            return True, "overlay_combo"
+        # 2) Schema.org signal used by many publishers
+        if re.search(r'"isAccessibleForFree"\s*:\s*false', html):
+            return True, "schema_isAccessibleForFree_false"
 
-        return False, "no_overlay_text"
+        # 3) Structural “email gate” detection (modal + email input)
+        email_inputs = page.locator('input[type="email"]')
+        subscribeish = page.get_by_text("Subscribe").count() > 0
+        get_it_now = page.get_by_text("Get it Now").count() > 0
+
+        if email_inputs.count() > 0 and (subscribeish or get_it_now):
+            return True, "email_gate_modal"
+
+        return False, "no_gate_detected"
+
     except PlaywrightTimeoutError:
-        # Fail-closed: if we cannot render/verify, drop it (free-only goal)
         return True, "playwright_timeout_drop"
     except Exception as ex:
         return True, f"playwright_error_drop_{type(ex).__name__}"
