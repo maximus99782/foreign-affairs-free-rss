@@ -1,8 +1,10 @@
+# filter_foreignaffairs.py
 import time
 import traceback
+import calendar
 import requests
 import feedparser
-from bs4 import BeautifulSoup
+
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
@@ -12,7 +14,7 @@ OUTPUT_FILE = "index.xml"
 DEBUG_FILE = "debug.txt"
 
 MAX_ENTRIES = 40
-SLEEP_SECONDS = 0.3  # Playwright is heavy; keep this small
+SLEEP_SECONDS = 0.8  # sleep on every URL to reduce rate/variant issues
 
 HEADERS = {
     "User-Agent": (
@@ -24,13 +26,15 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 
-# The exact overlay text you showed (plus a few robust helpers)
-PAYWALL_MUST_HAVE_ANY = [
+# You said: drop anything that requires email or subscription (free-open only).
+PAYWALL_VISIBLE_TEXT = [
+    # premium archives / subscriber prompts
     "This article is part of our premium archives",
-]
-PAYWALL_HELPERS = [
-    "premium archives",
-    "To continue reading and get full access to our entire archive, you must subscribe",
+    "To continue reading and get full access",
+
+    # email unlock gate (your screenshot)
+    "Finish reading this article for free",
+    "Get it Now",
 ]
 
 def xml_escape(s: str) -> str:
@@ -49,49 +53,73 @@ def fetch_source_feed():
     r.raise_for_status()
     return feedparser.parse(r.content), r.status_code, r.headers.get("content-type", "")
 
-import re
-from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
+def to_rfc822_pubdate(entry) -> str:
+    """
+    Prefer published_parsed (struct_time) -> RFC822.
+    Fallback to now if missing.
+    """
+    tt = entry.get("published_parsed") or entry.get("updated_parsed")
+    if tt:
+        ts = calendar.timegm(tt)  # treat as UTC
+        return format_datetime(datetime.fromtimestamp(ts, tz=timezone.utc))
+    return format_datetime(datetime.now(timezone.utc))
 
-PAYWALL_STRONG_TEXT = [
-    # Premium gate
-    "This article is part of our premium archives",
+def _visible_text_hit(page, text: str) -> bool:
+    loc = page.get_by_text(text, exact=False)
+    if loc.count() == 0:
+        return False
+    try:
+        return loc.first.is_visible()
+    except Exception:
+        return False
 
-    # Email gate (your screenshot)
-    "Finish reading this article for free",
-    "Enter your email and we’ll send a paywall-free link",
-    "Get unlimited access to all Foreign Affairs",
-]
+def detect_gate_visible(page) -> tuple[bool, str]:
+    """
+    Visible-only gate detection (avoids hidden DOM false positives).
+    Returns (paywalled, reason).
+    """
+    # Strong text triggers, but only if visible
+    for s in PAYWALL_VISIBLE_TEXT:
+        if _visible_text_hit(page, s):
+            return True, f"visible_text:{s[:50]}"
 
-def is_paywalled_playwright(context, url: str):
+    # Visible email gate structure: email input visible, usually in a dialog/modal
+    email_visible = page.locator('input[type="email"]:visible').count() > 0
+    if email_visible:
+        dialog_visible = page.locator('[role="dialog"]:visible').count() > 0
+        get_it_now = _visible_text_hit(page, "Get it Now")
+        finish_free = _visible_text_hit(page, "Finish reading this article for free")
+        if dialog_visible or get_it_now or finish_free:
+            return True, "email_gate_visible"
+
+    return False, "no_visible_gate"
+
+def is_paywalled_playwright(browser, url: str):
     """
     Returns (paywalled: bool, reason: str)
+    Uses a fresh context per URL to avoid cookie/meter contamination.
     """
+    context = browser.new_context(
+        user_agent=HEADERS["User-Agent"],
+        locale="en-US",
+    )
     page = context.new_page()
+
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=35_000)
-
-        # Wait a bit for overlays; many are mounted after DOMContentLoaded
         page.wait_for_timeout(2000)
 
-        html = page.content()
-        body_text = page.inner_text("body")
+        pw, reason = detect_gate_visible(page)
+        if pw:
+            return True, reason
 
-        # 1) Strong text triggers (either in HTML or visible text)
-        for s in PAYWALL_STRONG_TEXT:
-            if s in body_text or s in html:
-                return True, f"paywall_text:{s[:40]}"
+        # Some gates appear after scroll (or after a second of interaction)
+        page.evaluate("window.scrollTo(0, 900)")
+        page.wait_for_timeout(800)
 
-        # 2) Schema.org signal used by many publishers
-        if re.search(r'"isAccessibleForFree"\s*:\s*false', html):
-            return True, "schema_isAccessibleForFree_false"
-
-        # 3) Structural “email gate” detection (modal + email input)
-        email_inputs = page.locator('input[type="email"]')
-        subscribeish = page.get_by_text("Subscribe").count() > 0
-        get_it_now = page.get_by_text("Get it Now").count() > 0
-
-        if email_inputs.count() > 0 and (subscribeish or get_it_now):
-            return True, "email_gate_modal"
+        pw, reason = detect_gate_visible(page)
+        if pw:
+            return True, f"{reason}_after_scroll"
 
         return False, "no_gate_detected"
 
@@ -100,16 +128,23 @@ def is_paywalled_playwright(context, url: str):
     except Exception as ex:
         return True, f"playwright_error_drop_{type(ex).__name__}"
     finally:
-        page.close()
+        try:
+            page.close()
+        except Exception:
+            pass
+        try:
+            context.close()
+        except Exception:
+            pass
 
 def write_outputs(items_xml, debug_lines):
     now = format_datetime(datetime.now(timezone.utc))
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Foreign Affairs (free-only-ish)</title>
+    <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
-    <description>Filtered RSS feed; see debug.txt for run details</description>
+    <description>Filtered RSS feed (drops email-gated + subscriber-gated items). See debug.txt.</description>
     <lastBuildDate>{now}</lastBuildDate>
     {''.join(items_xml)}
   </channel>
@@ -145,10 +180,6 @@ def main():
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent=HEADERS["User-Agent"],
-            locale="en-US",
-        )
 
         try:
             for idx, e in enumerate(feed.entries[:MAX_ENTRIES]):
@@ -158,31 +189,35 @@ def main():
                     continue
 
                 try:
-                    pw, reason = is_paywalled_playwright(context, link)
+                    pw, reason = is_paywalled_playwright(browser, link)
                     if pw:
                         dropped_paywalled += 1
                         if dropped_paywalled <= 25:
                             debug_lines.append(f"dropped_paywalled_url={link} reason={reason}")
+                        time.sleep(SLEEP_SECONDS)
                         continue
                     else:
-                        if idx < 5:
+                        if kept < 5:
                             debug_lines.append(f"kept_probe_url={link} reason={reason}")
 
                 except Exception as ex:
                     check_errors += 1
                     debug_lines.append(f"paywall_check_error_url={link} err={type(ex).__name__}")
-                    # fail-closed
                     dropped_paywalled += 1
+                    time.sleep(SLEEP_SECONDS)
                     continue
 
                 title = xml_escape(e.get("title", ""))
                 desc = xml_escape(e.get("summary", ""))
-                pub = xml_escape(e.get("published", ""))
+                pub = xml_escape(to_rfc822_pubdate(e))
+
+                guid = xml_escape(link)
 
                 items_xml.append(f"""
     <item>
       <title>{title}</title>
       <link>{xml_escape(link)}</link>
+      <guid isPermaLink="true">{guid}</guid>
       <pubDate>{pub}</pubDate>
       <description>{desc}</description>
     </item>
@@ -191,8 +226,10 @@ def main():
                 time.sleep(SLEEP_SECONDS)
 
         finally:
-            context.close()
-            browser.close()
+            try:
+                browser.close()
+            except Exception:
+                pass
 
     debug_lines.append(f"kept_items={kept}")
     debug_lines.append(f"dropped_paywalled={dropped_paywalled}")
