@@ -1,5 +1,5 @@
-run_utc=2026-02-06T10:02:25.225170+00:00
-run_seq=24
+run_utc=2026-02-06T11:02:35.316759+00:00
+run_seq=25
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
@@ -7,8 +7,8 @@ source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/russia/limits-russian-power streak=1 reason=free_open_words=1805
-dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=visible_phrase:Finish reading this article for free
+free_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence streak=1 reason=free_open_words=5309
 dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=content_too_short_words=0
