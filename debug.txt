@@ -1,13 +1,15 @@
-run_utc=2026-02-06T04:58:09.228652+00:00
-run_seq=19
+run_utc=2026-02-06T06:08:43.861909+00:00
+run_seq=20
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria streak=1 reason=free_open_words=2973
+dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=visible_phrase:Finish reading this article for free
+free_url=https://www.foreignaffairs.com/russia/limits-russian-power streak=1 reason=free_open_words=1805
+dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=content_too_short_words=0
@@ -22,8 +24,6 @@ dropped_gated_url=https://www.foreignaffairs.com/united-states/making-industrial
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-economic-statecraft-working reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/better-greenland-deal reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/ukraine/fortress-ukraine reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/geopolitics-age-artificial-intelligence reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/personalist-global-order reason=content_too_short_words=0
 checked_urls=20
 free_now=1
 gated_now=19
