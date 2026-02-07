@@ -4,7 +4,15 @@
     <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS: only items that are free-open (no email gate, no subscription), confirmed across runs.</description>
-    <lastBuildDate>Sat, 07 Feb 2026 07:47:36 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Feb 2026 08:51:36 +0000</lastBuildDate>
     
+    <item>
+      <title>The Limits of Russian Power</title>
+      <link>https://www.foreignaffairs.com/russia/limits-russian-power</link>
+      <guid isPermaLink="true">https://www.foreignaffairs.com/russia/limits-russian-power</guid>
+      <pubDate>Thu, 05 Feb 2026 05:00:00 +0000</pubDate>
+      <description>Why Putin isn’t thriving in Trump’s anarchic world.</description>
+    </item>
+                        
   </channel>
 </rss>
