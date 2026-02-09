@@ -1,31 +1,31 @@
-run_utc=2026-02-09T09:11:21.466408+00:00
-run_seq=82
+run_utc=2026-02-09T10:20:56.963836+00:00
+run_seq=83
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/china/xi-destroyer reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/iran/americas-best-chance-transform-iran-trump reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/china/unsettling-implications-xis-military-purge reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/world-will-come-miss-western-hypocrisy reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/afghanistan/afghanistan-and-pakistan-square reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/making-industrial-strategy-great-again reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/china/chinas-economic-statecraft-working reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/china/xi-destroyer reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/iran/americas-best-chance-transform-iran-trump reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/china/unsettling-implications-xis-military-purge reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/united-states/world-will-come-miss-western-hypocrisy reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/afghanistan/afghanistan-and-pakistan-square reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/united-states/making-industrial-strategy-great-again reason=visible_phrase:Finish reading this article for free
+free_url=https://www.foreignaffairs.com/china/chinas-economic-statecraft-working streak=1 reason=free_open_words=2731
 checked_urls=20
-free_now=0
-gated_now=20
+free_now=1
+gated_now=19
 published_items=0
 errors=0
