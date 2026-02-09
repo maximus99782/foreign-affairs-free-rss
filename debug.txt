@@ -1,13 +1,13 @@
-run_utc=2026-02-09T15:13:12.604989+00:00
-run_seq=87
+run_utc=2026-02-09T16:14:00.963906+00:00
+run_seq=88
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix streak=1 reason=free_open_words=3841
+dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/afghanistan/afghanistan-and-pak
 dropped_gated_url=https://www.foreignaffairs.com/united-states/making-industrial-strategy-great-again reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-economic-statecraft-working reason=content_too_short_words=0
 checked_urls=20
-free_now=1
-gated_now=19
+free_now=0
+gated_now=20
 published_items=0
 errors=0
