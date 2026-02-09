@@ -1,5 +1,5 @@
-run_utc=2026-02-09T11:57:48.818030+00:00
-run_seq=85
+run_utc=2026-02-09T13:57:59.304011+00:00
+run_seq=86
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
@@ -7,7 +7,7 @@ source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
