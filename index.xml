@@ -4,7 +4,15 @@
     <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS: only items that are free-open (no email gate, no subscription), confirmed across runs.</description>
-    <lastBuildDate>Tue, 10 Feb 2026 17:20:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 19:34:31 +0000</lastBuildDate>
     
+    <item>
+      <title>Europe Needs an Army</title>
+      <link>https://www.foreignaffairs.com/europe/europe-needs-army</link>
+      <guid isPermaLink="true">https://www.foreignaffairs.com/europe/europe-needs-army</guid>
+      <pubDate>Mon, 09 Feb 2026 05:00:00 +0000</pubDate>
+      <description>Only collective defense can protect the continent.</description>
+    </item>
+                        
   </channel>
 </rss>
