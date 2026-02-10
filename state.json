@@ -1,21 +1,21 @@
 {
   "__meta__": {
-    "last_run_utc": "2026-02-10T15:35:25.577153+00:00",
-    "run_seq": 103
+    "last_run_utc": "2026-02-10T17:19:16.284591+00:00",
+    "run_seq": 104
   },
   "https://www.foreignaffairs.com/afghanistan/afghanistan-and-pakistan-square": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Afghanistan and Pakistan Square Off"
   },
   "https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon": {
     "free_streak": 0,
     "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Beijing’s Growth Model Is Still Broken"
   },
@@ -30,88 +30,88 @@
   "https://www.foreignaffairs.com/china/chinas-smart-authoritarianism": {
     "free_streak": 0,
     "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "China’s Smart Authoritarianism"
   },
   "https://www.foreignaffairs.com/china/unsettling-implications-xis-military-purge": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The Unsettling Implications of Xi’s Military Purge"
   },
   "https://www.foreignaffairs.com/china/xi-destroyer": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Xi the Destroyer"
   },
   "https://www.foreignaffairs.com/europe/europe-needs-army": {
-    "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
-    "last_status": "GATED",
+    "free_streak": 1,
+    "last_reason": "free_open_words=2795",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
+    "last_status": "FREE",
     "title": "Europe Needs an Army"
   },
   "https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Europe’s Next Hegemon"
   },
   "https://www.foreignaffairs.com/iran/americas-best-chance-transform-iran-trump": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "America’s Best Chance to Transform Iran"
   },
   "https://www.foreignaffairs.com/israel/peace-through-leverage-gaza": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Peace Through Leverage in Gaza"
   },
   "https://www.foreignaffairs.com/japan/japan-cant-go-it-alone": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Japan Can’t Go It Alone"
   },
   "https://www.foreignaffairs.com/russia/limits-russian-power": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The Limits of Russian Power"
   },
   "https://www.foreignaffairs.com/syria/trouble-brewing-syria": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Trouble Is Brewing in Syria"
   },
   "https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The Free World Needs Taiwan"
   },
@@ -126,8 +126,8 @@
   "https://www.foreignaffairs.com/united-states/ai-divide": {
     "free_streak": 0,
     "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The AI Divide"
   },
@@ -157,9 +157,9 @@
   },
   "https://www.foreignaffairs.com/united-states/paradox-wartime-commerce": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The Paradox of Wartime Commerce"
   },
@@ -173,41 +173,41 @@
   },
   "https://www.foreignaffairs.com/united-states/predatory-hegemon-walt": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The Predatory Hegemon"
   },
   "https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The Real Risks of the Saudi-UAE Feud"
   },
   "https://www.foreignaffairs.com/united-states/strength-over-peace": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "Strength Over Peace"
   },
   "https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence": {
     "free_streak": 0,
-    "last_reason": "email_gate_visible_dialog",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "There Is Only One Sphere of Influence"
   },
   "https://www.foreignaffairs.com/united-states/world-will-come-miss-western-hypocrisy": {
     "free_streak": 0,
-    "last_reason": "visible_phrase:Finish reading this article for free",
-    "last_seen_seq": 103,
-    "last_seen_utc": "2026-02-10T15:35:25.577153+00:00",
+    "last_reason": "content_too_short_words=0",
+    "last_seen_seq": 104,
+    "last_seen_utc": "2026-02-10T17:19:16.284591+00:00",
     "last_status": "GATED",
     "title": "The World Will Come to Miss Western Hypocrisy"
   }
