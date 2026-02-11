@@ -1,12 +1,12 @@
-run_utc=2026-02-11T21:50:41.729299+00:00
-run_seq=123
+run_utc=2026-02-11T22:50:59.492694+00:00
+run_seq=124
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=13 reason=free_open_words=3162
+free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=14 reason=free_open_words=3162
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=content_too_short_words=0
