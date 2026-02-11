@@ -1,15 +1,15 @@
-run_utc=2026-02-11T03:26:39.380134+00:00
-run_seq=110
+run_utc=2026-02-11T05:46:29.842463+00:00
+run_seq=111
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=1 reason=free_open_words=2418
-dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=content_too_short_words=0
+free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=1 reason=free_open_words=3159
+free_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism streak=1 reason=free_open_words=2957
+free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=2 reason=free_open_words=2418
+free_url=https://www.foreignaffairs.com/europe/europe-needs-army streak=1 reason=free_open_words=2830
+dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone re
 dropped_gated_url=https://www.foreignaffairs.com/united-states/world-will-come-miss-western-hypocrisy reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/afghanistan/afghanistan-and-pakistan-square reason=content_too_short_words=0
 checked_urls=20
-free_now=1
-gated_now=19
-published_items=0
+free_now=4
+gated_now=16
+published_items=1
 errors=0
