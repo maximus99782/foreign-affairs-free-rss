@@ -1,18 +1,18 @@
-run_utc=2026-02-11T13:50:54.305319+00:00
-run_seq=117
+run_utc=2026-02-11T15:14:45.383271+00:00
+run_seq=118
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=7 reason=free_open_words=3159
-free_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism streak=3 reason=free_open_words=2957
-free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=3 reason=free_open_words=2418
-free_url=https://www.foreignaffairs.com/europe/europe-needs-army streak=3 reason=free_open_words=2830
+free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=8 reason=free_open_words=3162
+free_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism streak=4 reason=free_open_words=2960
+free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=4 reason=free_open_words=2421
+free_url=https://www.foreignaffairs.com/europe/europe-needs-army streak=4 reason=free_open_words=2833
 dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud streak=1 reason=free_open_words=2240
-dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
+free_url=https://www.foreignaffairs.com/united-states/strength-over-peace streak=1 reason=free_open_words=2093
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
