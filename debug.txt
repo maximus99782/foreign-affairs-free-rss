@@ -1,18 +1,18 @@
-run_utc=2026-02-11T07:19:43.740073+00:00
-run_seq=112
+run_utc=2026-02-11T09:08:45.893110+00:00
+run_seq=113
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=2 reason=free_open_words=3159
-free_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism streak=2 reason=free_open_words=2957
-free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=3 reason=free_open_words=2418
-free_url=https://www.foreignaffairs.com/europe/europe-needs-army streak=2 reason=free_open_words=2830
+dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=email_gate_visible_dialog
+free_url=https://www.foreignaffairs.com/united-states/ai-divide streak=3 reason=free_open_words=3159
+free_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism streak=3 reason=free_open_words=2957
+free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=4 reason=free_open_words=2418
+free_url=https://www.foreignaffairs.com/europe/europe-needs-army streak=3 reason=free_open_words=2830
 dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud streak=1 reason=free_open_words=2245
-dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/iran/americas-best-chance-trans
 dropped_gated_url=https://www.foreignaffairs.com/china/unsettling-implications-xis-military-purge reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/japan/japan-cant-go-it-alone reason=content_too_short_words=0
 checked_urls=20
-free_now=5
-gated_now=15
+free_now=4
+gated_now=16
 published_items=4
 errors=0
