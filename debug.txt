@@ -1,12 +1,12 @@
-run_utc=2026-02-12T07:18:10.136817+00:00
-run_seq=128
+run_utc=2026-02-12T09:07:11.435133+00:00
+run_seq=129
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank streak=1 reason=free_open_words=3214
+dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon
 dropped_gated_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/xi-destroyer reason=content_too_short_words=0
 checked_urls=20
-free_now=1
-gated_now=19
+free_now=0
+gated_now=20
 published_items=0
 errors=0
