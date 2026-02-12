@@ -1,13 +1,13 @@
-run_utc=2026-02-12T11:08:37.256007+00:00
-run_seq=131
+run_utc=2026-02-12T11:57:13.455079+00:00
+run_seq=132
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end streak=2 reason=free_open_words=3718
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
+free_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end streak=3 reason=free_open_words=3718
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=content_too_short_words=0
