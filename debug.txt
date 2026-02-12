@@ -1,13 +1,13 @@
-run_utc=2026-02-12T13:45:41.251926+00:00
-run_seq=133
+run_utc=2026-02-12T15:08:07.265436+00:00
+run_seq=134
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi streak=1 reason=free_open_words=3996
-dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
+free_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end streak=1 reason=free_open_words=3725
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=content_too_short_words=0
@@ -15,13 +15,13 @@ dropped_gated_url=https://www.foreignaffairs.com/china/beijings-growth-model-sti
 dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/paradox-wartime-commerce reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/israel/peace-through-leverage-gaza reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/xi-destroyer reason=content_too_short_words=0
 checked_urls=20
