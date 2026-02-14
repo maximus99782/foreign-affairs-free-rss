@@ -1,5 +1,5 @@
-run_utc=2026-02-14T19:36:47.382650+00:00
-run_seq=177
+run_utc=2026-02-14T20:43:55.596909+00:00
+run_seq=178
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
@@ -7,9 +7,9 @@ source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/iran/irans-divided-opposition reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi streak=1 reason=free_open_words=4000
-dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
+free_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank streak=1 reason=free_open_words=3230
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=content_too_short_words=0
