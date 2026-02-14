@@ -1,13 +1,13 @@
-run_utc=2026-02-14T11:35:54.026222+00:00
-run_seq=169
+run_utc=2026-02-14T13:13:07.156232+00:00
+run_seq=170
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
-dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/iran/irans-divided-opposition reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank streak=7 reason=free_open_words=3230
+free_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank streak=8 reason=free_open_words=3230
 dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
