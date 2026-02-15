@@ -4,7 +4,15 @@
     <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS: only items that are free-open (no email gate, no subscription), confirmed across runs.</description>
-    <lastBuildDate>Sun, 15 Feb 2026 21:41:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 22:46:12 +0000</lastBuildDate>
     
+    <item>
+      <title>America and China at the Edge of Ruin</title>
+      <link>https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi</link>
+      <guid isPermaLink="true">https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi</guid>
+      <pubDate>Thu, 12 Feb 2026 05:00:00 +0000</pubDate>
+      <description>A last chance to step back from the brink.</description>
+    </item>
+                        
   </channel>
 </rss>
