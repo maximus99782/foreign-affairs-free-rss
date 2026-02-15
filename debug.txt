@@ -1,13 +1,13 @@
-run_utc=2026-02-15T16:50:23.039266+00:00
-run_seq=194
+run_utc=2026-02-15T17:44:40.286114+00:00
+run_seq=195
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=visible_phrase:Finish reading this article for free
-dropped_gated_url=https://www.foreignaffairs.com/iran/irans-divided-opposition reason=visible_phrase:Finish reading this article for free
-dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
+free_url=https://www.foreignaffairs.com/iran/irans-divided-opposition streak=1 reason=free_open_words=2777
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria rea
 dropped_gated_url=https://www.foreignaffairs.com/taiwan/free-world-needs-taiwan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/predatory-hegemon-walt reason=content_too_short_words=0
 checked_urls=20
-free_now=0
-gated_now=20
+free_now=1
+gated_now=19
 published_items=0
 errors=0
