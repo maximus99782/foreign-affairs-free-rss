@@ -1,5 +1,5 @@
-run_utc=2026-02-16T21:45:17.773191+00:00
-run_seq=217
+run_utc=2026-02-16T22:49:51.772858+00:00
+run_seq=218
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
@@ -7,23 +7,23 @@ source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/russia/price-peace-ukraine reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/russia/ukraines-war-endurance reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/iran/irans-divided-opposition streak=1 reason=free_open_words=2769
-dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/iran/irans-divided-opposition reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=email_gate_visible_dialog
+dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/china/chinas-smart-authoritarianism reason=visible_phrase:Finish reading this article for free
+dropped_gated_url=https://www.foreignaffairs.com/europe/europe-needs-army reason=visible_phrase:Finish reading this article for free
+free_url=https://www.foreignaffairs.com/china/beijings-growth-model-still-broken-dinny-mcmahon streak=1 reason=free_open_words=2420
 dropped_gated_url=https://www.foreignaffairs.com/germany/europes-next-hegemon-liana-fix reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/real-risks-saudi-uae-feud reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/strength-over-peace reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/limits-russian-power reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/there-only-one-sphere-influence reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/syria/trouble-brewing-syria reason=email_gate_visible_dialog
 checked_urls=20
 free_now=1
 gated_now=19
