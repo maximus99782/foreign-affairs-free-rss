@@ -1,13 +1,13 @@
-run_utc=2026-02-16T19:47:37.570010+00:00
-run_seq=215
+run_utc=2026-02-16T20:48:42.507951+00:00
+run_seq=216
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/russia/price-peace-ukraine reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/russia/ukraines-war-endurance reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/iran/irans-divided-opposition streak=1 reason=free_open_words=2769
+free_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics streak=1 reason=free_open_words=2625
+dropped_gated_url=https://www.foreignaffairs.com/iran/irans-divided-opposition reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
