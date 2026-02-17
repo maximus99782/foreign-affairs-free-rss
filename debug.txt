@@ -1,18 +1,18 @@
-run_utc=2026-02-17T21:49:04.244114+00:00
-run_seq=237
+run_utc=2026-02-17T22:51:40.588473+00:00
+run_seq=238
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine streak=1 reason=free_open_words=3174
+free_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan streak=1 reason=free_open_words=3582
+dropped_gated_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/price-peace-ukraine reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/ukraines-war-endurance reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=content_too_short_words=0
