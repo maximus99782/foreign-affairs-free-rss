@@ -1,13 +1,13 @@
-run_utc=2026-02-17T11:07:46.677007+00:00
-run_seq=227
+run_utc=2026-02-17T11:55:21.430015+00:00
+run_seq=228
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/united-states/illusion-readiness reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/dream-palace-west streak=7 reason=free_open_words=2196
-dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala streak=2 reason=free_open_words=4182
+free_url=https://www.foreignaffairs.com/united-states/dream-palace-west streak=8 reason=free_open_words=2196
+free_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton streak=1 reason=free_open_words=4151
+dropped_gated_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
@@ -27,5 +27,5 @@ dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=
 checked_urls=20
 free_now=2
 gated_now=18
-published_items=2
+published_items=1
 errors=0
