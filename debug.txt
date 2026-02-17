@@ -1,5 +1,5 @@
-run_utc=2026-02-17T16:10:04.179982+00:00
-run_seq=231
+run_utc=2026-02-17T17:17:24.783037+00:00
+run_seq=232
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
@@ -7,9 +7,9 @@ source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala streak=2 reason=free_open_words=4193
-dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=visible_phrase:Finish reading this article for free
+free_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper streak=1 reason=free_open_words=4955
+dropped_gated_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
@@ -27,5 +27,5 @@ dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=
 checked_urls=20
 free_now=1
 gated_now=19
-published_items=1
+published_items=0
 errors=0
