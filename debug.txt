@@ -1,18 +1,18 @@
-run_utc=2026-02-17T13:40:05.543011+00:00
-run_seq=229
+run_utc=2026-02-17T15:06:54.740873+00:00
+run_seq=230
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
+dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/illusion-readiness reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/dream-palace-west streak=9 reason=free_open_words=2207
-dropped_gated_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden streak=1 reason=free_open_words=4482
+dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=visible_phrase:Finish reading this article for free
+free_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala streak=1 reason=free_open_words=4193
+dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/price-peace-ukraine reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/ukraines-war-endurance reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end r
 dropped_gated_url=https://www.foreignaffairs.com/united-states/america-fearful reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-divide reason=content_too_short_words=0
 checked_urls=20
-free_now=2
-gated_now=18
-published_items=1
+free_now=1
+gated_now=19
+published_items=0
 errors=0
