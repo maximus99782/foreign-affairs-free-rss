@@ -4,7 +4,15 @@
     <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS: only items that are free-open (no email gate, no subscription), confirmed across runs.</description>
-    <lastBuildDate>Tue, 17 Feb 2026 05:05:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 06:12:25 +0000</lastBuildDate>
     
+    <item>
+      <title>The Dream Palace of the West</title>
+      <link>https://www.foreignaffairs.com/united-states/dream-palace-west</link>
+      <guid isPermaLink="true">https://www.foreignaffairs.com/united-states/dream-palace-west</guid>
+      <pubDate>Tue, 17 Feb 2026 05:00:00 +0000</pubDate>
+      <description>A Response to “The West’s Last Chance”</description>
+    </item>
+                        
   </channel>
 </rss>
