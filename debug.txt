@@ -1,14 +1,14 @@
-run_utc=2026-02-19T15:08:14.109177+00:00
-run_seq=267
+run_utc=2026-02-19T16:05:31.266477+00:00
+run_seq=268
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/united-states/energy-dominance-chinese-characteristics reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/americas/perils-militarizing-law-enforcement reason=visible_phrase:Finish reading this article for free
-dropped_gated_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=email_gate_visible_dialog
-free_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper streak=1 reason=free_open_words=4949
+free_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine streak=1 reason=free_open_words=3167
+dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=content_too_short_words=0
