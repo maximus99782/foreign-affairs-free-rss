@@ -1,5 +1,5 @@
-run_utc=2026-02-19T11:08:11.919627+00:00
-run_seq=264
+run_utc=2026-02-19T11:55:53.633267+00:00
+run_seq=265
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
@@ -7,7 +7,7 @@ source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/united-states/energy-dominance-chinese-characteristics reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/americas/perils-militarizing-law-enforcement reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=email_gate_visible_dialog
-dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
+free_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper streak=1 reason=free_open_words=4945
 dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-
 dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/sudan/how-war-sudan-could-end reason=content_too_short_words=0
 checked_urls=20
-free_now=0
-gated_now=20
+free_now=1
+gated_now=19
 published_items=0
 errors=0
