@@ -1,27 +1,27 @@
-run_utc=2026-02-20T08:59:37.200247+00:00
-run_seq=282
+run_utc=2026-02-20T09:59:01.148440+00:00
+run_seq=283
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-private-sector-pivot reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/energy-dominance-chinese-characteristics reason=visible_phrase:Finish reading this article for free
-dropped_gated_url=https://www.foreignaffairs.com/americas/perils-militarizing-law-enforcement reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden streak=1 reason=free_open_words=4475
+free_url=https://www.foreignaffairs.com/americas/perils-militarizing-law-enforcement streak=1 reason=free_open_words=2923
+dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/russia/europes-next-war-charap-haukkala reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/ukraines-war-endurance reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/russia/price-peace-ukraine reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/europe/how-avert-tragedy-great-power-politics reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/iran/irans-divided-opposition reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/ai-trilemma reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china-edge-ruin-lampton-jisi reason=visible_phrase:Finish reading this article for free
 dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
 checked_urls=20
