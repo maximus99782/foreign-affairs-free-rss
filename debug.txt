@@ -1,16 +1,16 @@
-run_utc=2026-02-20T15:01:31.525402+00:00
-run_seq=287
+run_utc=2026-02-20T15:54:30.549106+00:00
+run_seq=288
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
 source_entries_count=20
 dropped_gated_url=https://www.foreignaffairs.com/china/chinas-private-sector-pivot reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/energy-dominance-chinese-characteristics reason=visible_phrase:Finish reading this article for free
-free_url=https://www.foreignaffairs.com/americas/perils-militarizing-law-enforcement streak=1 reason=free_open_words=2918
-dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=content_too_short_words=0
-dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/americas/perils-militarizing-law-enforcement reason=email_gate_visible_dialog
 dropped_gated_url=https://www.foreignaffairs.com/united-states/womens-rights-are-democratic-rights-hillary-clinton reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/asia-after-america-cooper reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/united-states/dream-palace-west reason=content_too_short_words=0
+dropped_gated_url=https://www.foreignaffairs.com/ukraine/ukraine-and-new-way-war-lissner-warden reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/multipolar-delusion-mohan reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/globalist-delusion-nadia-schadlow reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/age-kleptocracy-cooley-nexon reason=content_too_short_words=0
@@ -25,7 +25,7 @@ dropped_gated_url=https://www.foreignaffairs.com/united-states/america-and-china
 dropped_gated_url=https://www.foreignaffairs.com/israel/israel-quietly-annexing-west-bank reason=content_too_short_words=0
 dropped_gated_url=https://www.foreignaffairs.com/united-states/trumps-nato-dilemma reason=content_too_short_words=0
 checked_urls=20
-free_now=1
-gated_now=19
+free_now=0
+gated_now=20
 published_items=0
 errors=0
