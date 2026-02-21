@@ -4,7 +4,15 @@
     <title>Foreign Affairs (free-open only)</title>
     <link>https://www.foreignaffairs.com/</link>
     <description>Filtered RSS: only items that are free-open (no email gate, no subscription), confirmed across runs.</description>
-    <lastBuildDate>Sat, 21 Feb 2026 11:36:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 13:13:11 +0000</lastBuildDate>
     
+    <item>
+      <title>What America Must Learn From Ukraine</title>
+      <link>https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine</link>
+      <guid isPermaLink="true">https://www.foreignaffairs.com/united-states/what-america-must-learn-ukraine</guid>
+      <pubDate>Tue, 17 Feb 2026 05:00:00 +0000</pubDate>
+      <description>Will Washington Repeat Moscow’s Mistakes?</description>
+    </item>
+                        
   </channel>
 </rss>
