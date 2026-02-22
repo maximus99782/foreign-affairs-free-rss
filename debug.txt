@@ -1,5 +1,5 @@
-run_utc=2026-02-22T13:13:30.575382+00:00
-run_seq=327
+run_utc=2026-02-22T13:54:10.325655+00:00
+run_seq=328
 source_mode=rss
 source_http_status=200
 source_content_type=application/rss+xml; charset=utf-8
